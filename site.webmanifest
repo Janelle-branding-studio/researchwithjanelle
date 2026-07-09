@@ -1,0 +1,14 @@
+{
+  "name": "Researchwithjanelle",
+  "short_name": "RWJ",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#009B77",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
