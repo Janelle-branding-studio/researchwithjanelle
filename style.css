@@ -4,3 +4,6 @@
 
 .floating-whatsapp{position:fixed;right:18px;bottom:78px;width:56px;height:56px;border-radius:50%;display:grid;place-items:center;background:#25D366;color:#fff;font-size:28px;box-shadow:0 18px 42px rgba(37,211,102,.34);z-index:45;transition:.25s ease}.floating-whatsapp:hover{transform:translateY(-3px);background:#1ebe5d}.back-to-top{bottom:18px}
 @media (max-width:720px){.floating-whatsapp{right:16px;bottom:76px;width:52px;height:52px;font-size:26px}}
+
+.proof{background:#fff}.proof-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:18px}.proof-card{border:1px solid var(--line);border-radius:8px;background:#fff;box-shadow:0 16px 44px rgba(0,45,35,.08);overflow:hidden;transition:.25s ease}.proof-card:hover{transform:translateY(-5px);box-shadow:0 26px 70px rgba(0,80,62,.14)}.proof-card img{width:100%;aspect-ratio:9/14;object-fit:cover;object-position:top;border-bottom:1px solid var(--line);background:#f5faf8}.proof-card h3{font-size:17px;margin:16px 16px 6px}.proof-card p{font-size:14px;color:var(--muted);margin:0 16px 18px}
+@media (max-width:1050px){.proof-grid{grid-template-columns:repeat(3,1fr)}}@media (max-width:720px){.proof-grid{grid-template-columns:1fr 1fr;gap:14px}.proof-card h3{font-size:15px}.proof-card p{font-size:13px}}@media (max-width:430px){.proof-grid{grid-template-columns:1fr}}
